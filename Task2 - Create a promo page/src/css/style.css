@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo
+{
+    display: inline;
+    margin: 60px 0 0 88px;
+}
+
+.menu
+{
+    display: inline;
+}
+
+.main_menu
+{
+    display: inline;
+    float: right;
+    margin: 60px 80px 0 0;
+}
+
+.menu_item
+{
+    display: inline;
+    margin-right: 40px;
+
+}
+
+.menu_link
+{
+    text-decoration: none;
+    font: 700 13px 'Lato', serif;
+    color: #060c31;
+    line-height: 28px;
+}
+
+.create_account
+{
+    display: inline;
+    font: 700 15px 'Lato', sans-serif;
+    text-decoration: none;
+    color: #060c31;
+    border: 1px solid #ffb0b1;
+    padding: 14px 36px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.content
+{
+    margin: 70px auto 110px 200px;
+}
+
+.content_block
+{
+    display: inline-block;
+    width: 493px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.main_background
+{
+    position: absolute;
+    display: inline;
+    z-index: -3;
+    right: 5px;
+}
+
+.content_title
+{
+    display: inline-block;
+    font: 400 58px 'Crete Round', serif;
+    line-height: 64px;
+    letter-spacing: 0.75px;
+    color: #060C31;
+    margin: 0;
+}
+
+.content_descr
+{
+    display: inline-block;
+    width: 436px;
+    font: 400 15px 'Lato', serif;
+    letter-spacing: 0.75px;
+    line-height: 28px;
+    color: #060C31;
+    margin: 42px 0 76px 0;
+}
+
+.button_get_started
+{
+    align-items: center;
+    padding: 16px 36px;
+    width: 156px;
+    height: 50px;
+    background: #233FE2;
+    border-radius: 50px;
+    font: 700 15px 'Lato', serif;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+
+}
+
+.button_create_account
+{
+    align-items: center;
+    padding: 16px 36px;
+    width: 156px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px #ffb0b1 solid;
+    border-radius: 50px;
+    font: 700 15px 'Lato', serif;
+    text-decoration: none;
+    color: #060C31;
+}
+
+.footer_icons
+{
+    display: inline;
+    float: right;
+}
+
+.footer_item
+{
+    margin: 109px 100px 52px auto;
+}
