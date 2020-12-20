@@ -9,12 +9,15 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    max-width: 1620px;
+    align-items:center;
+    width: 1750px;
+    margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 .logo
 {
-    margin: 38px 0 0 120px;
+    margin-top: 38px;
 }
 
 .menu
@@ -24,27 +27,31 @@
 
 .menu_item
 {
-    font: 500 16px 'Montserrat';
+    font: 500 16px 'Montserrat', sans-serif;
     text-decoration: none;
     color: #000000;
     margin-left: 87px;
 }
 
-.menu_link
+.button
 {
-    font: 600 16px 'Montserrat';
+    background-color: #05090c;
     color: #ffffff;
+    padding: 18px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    font: 600 16px 'Montserrat';
+}
+
+.button_menu
+{
     margin-left: 99px;
 }
 
-.button_course
+.button_start
 {
-    padding: 18.36px 34.425px;
-    width: 247px;
-    height: 55px;
-    background: #05090C;
-    border-radius: 4.59px;
-    text-decoration: none;
+    padding-right: 82.5px;
+    padding-left: 82.5px;
 }
 
 .start
@@ -60,7 +67,7 @@
 .title
 {
     font: 600 100px 'Montserrat';
-    margin-bottom: 4.69px;
+    margin-bottom: 19px;
 }
 
 .title_color_pink
@@ -72,33 +79,15 @@
 {
     font: 400 26px 'Roboto Condensed';
     width: 545px;
-    margin-bottom: 46px;
+    margin-bottom: 60px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
-.button
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 18.36px 34.425px; 
-    width: 332px;    
-    background: #05090C;
-    border-radius: 4.59px;
-}
 
-.button_link
-{
-    background: #05090C;
-    border-radius: 4.59px;
-    text-decoration: none;
-    color: #FFFFFF;
-    font: 600 16px 'Montserrat';
-}
-
-.start_image
+/* .start_image
 {
     margin-top: 90.35px 0 64.78px 29.57px;
-}
+} */
 
 .attraction
 {
@@ -106,28 +95,23 @@
     display: flexbox;
     align-items:center;
     background-color: #000000;
+    margin-bottom: 209px;
 }
 
-.attraction_icons
+.attraction_list
 {
     display: flex;
     justify-content: space-between;
-    width: 1011px;
-    margin: 0 auto;
+    width: 1215px;
+    margin: 0 auto; 
+    padding-top: 115px;
 }
 
 .attraction_icon
 {
     width: 337px;
     text-align: center;
-    margin-top: 111px;
-}
-
-.attraction_image
-{
-    height: 60px;
-    margin-bottom: 20px;
-
+    
 }
 
 .attraction_description
@@ -135,35 +119,26 @@
     font: 400 22px 'Roboto Condensed';
     color:#ffffff;
     width: 340px;
-}
 
-.attraction_description_time
-{
-    width: 303px;
-    font: 400 22px 'Roboto Condensed';
-    color:#ffffff;
-}
-
-.time_limits
-{
-    width: 1350px;
-    display: flex;
-    align-items:center;
-    margin: 34px auto 100px;
 }
 
 .time_limit
 {
     display: flex;
     align-items: center;
+    margin: 34px auto 100px;
+    width: 1350px;
+    margin: 0 auto;
+    margin-bottom: 70px;
 }
+
 
 .time_limit_text
 {
-    display: flex;
-    flex-direction: column;
     width: 620px;
+    margin-left: 110px;
 }
+
 .time_limit_title
 {
     margin-bottom: 24px;
@@ -173,29 +148,28 @@
 .time_limit_description
 {
     font: 400 18px/24.3px 'Roboto Condensed', sans-serif;
-}
-
-.mind_limits
-{
-    width: 1350px;
-    display: flex;
-    align-items:center;
-    margin: 34px auto 100px;
+    color: #000000;
+    opacity: 0.7;
 }
 
 .mind_limit
 {
     display: flex;
     align-items: center;
-    margin-bottom: 133px;
+    width: 1135px;
+    margin: 0 auto;
 }
 
 .mind_limit_text
 {
-    display: flex;
-    flex-direction: column;
-    width: 620px;
-    padding-left: 110px;
+    width: 574px;
+    justify-content: left;
+}
+
+.mind_limit_image
+{
+    justify-content: right;
+    margin-left: 80px;
 }
 
 .mind_limit_title
@@ -207,6 +181,7 @@
 .mind_limit_description
 {
     font: 400 18px/24.3px 'Roboto Condensed', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .course
@@ -229,17 +204,16 @@
 .course_table
 {
     display: grid;
-    grid-template-columns: repeat(3, 358px);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     justify-content: center;
-    
+    width: 1135px;
+    margin: 0 auto;
 }
 
 .course_frame
 {
     background-color: #000000;
-    width: 358px;
-    height: 190px;
     border-radius: 7.4px;
 }
 
