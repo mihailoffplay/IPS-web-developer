@@ -12,15 +12,13 @@
     </head>
     <body>
         <header class="header">
-            <a href="#">
-                <img class="logo" src="images/logo.svg" alt="logo"></a>
+                <a href="#"><img class="logo" src="images/logo.svg" alt="logo"></a>
                 <nav class="menu">
                     <a class="menu_item" href="#">Что будет на курсе?</a>
                     <a class="menu_item" href="#">Вопросы</a>
                     <a class="menu_item" href="#">Автор</a>
                     <a class="button button_menu" href="#">Записаться на курс</a>
                 </nav>
-            </a>
         </header>
 
         <section class="start">
@@ -38,13 +36,13 @@
 
         <div class="attraction">
             <div class="attraction_list">
-                <div class="attraction_icon">
+                <div class="attraction_tabs">
                     <img src="images/icons/attraction_section/time.png" alt="time" class="attraction_image">
                     <p class="attraction_description">
                         Для тех, у кого слишком много идей и слишком мало времени
                     </p>
                 </div>
-                <div class="attraction_icon">
+                <div class="attraction_tabs">
                     <img
                         src="images/icons/attraction_section/notebook.png"
                         alt="notebook"
@@ -53,7 +51,7 @@
                         Метод «списка не дел», который позволит успевать и реализовывать
                     </p>
                 </div>
-                <div class="attraction_icon">
+                <div class="attraction_tabs">
                     <img
                         src="images/icons/attraction_section/target.png"
                         alt="target"
@@ -145,7 +143,7 @@
                         <input class="feedback_form_text" required type="text" class="form" name="name" placeholder="Ваше имя">
                         <input class="feedback_form_text" required type="email" class="form" name="email" placeholder="Email">
                         <select required name="activity" id="activity" class="feedback_form_text feedback_form_select">
-                            <option  disabled selected hidden>Деятельность</option>
+                            <option value="" disabled selected hidden>Деятельность</option>
                             <option value="programmer">Программист</option>
                             <option value="designer">Дизайнер</option>
                             <option value="marketer">Маркетолог</option>
@@ -154,8 +152,8 @@
                     </form>  
                 </div>
                 <div class="feedback_confirm">
-                    <input required id="checkbox" type="checkbox">
-                    <label required for="checkbox"> Согласен получать информационные материалы о старте курса</label>
+                    <input id="checkbox" type="checkbox">
+                    <label for="checkbox" class="checkbox_confirm_text"> Согласен получать информационные материалы о старте курса</label>
                 </div>
             </div>
         </section>
