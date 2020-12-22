@@ -393,7 +393,7 @@ input:disabled + label:before
 
 .social_description_wrapping
 {
-    font: 400 18px 'Roboto Condensed', sans-serif;
+    font: 400 18px/27px 'Roboto Condensed', sans-serif;
     text-align: center;
 }
 
