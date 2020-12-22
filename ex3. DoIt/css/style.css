@@ -10,13 +10,9 @@
     justify-content: space-between;
     flex-direction: row;
     align-items:center;
-    width: 1750px;
+    max-width: 1750px;
     margin: 0 auto;
     margin-bottom: 60px;
-}
-
-.logo
-{
     margin-top: 38px;
 }
 
@@ -77,25 +73,19 @@
 
 .title_description
 {
-    font: 400 26px 'Roboto Condensed';
+    font: 400 26px/31px 'Roboto Condensed';
     width: 545px;
     margin-bottom: 60px;
     color: rgba(0, 0, 0, 0.7);
 }
 
-
-/* .start_image
-{
-    margin-top: 90.35px 0 64.78px 29.57px;
-} */
-
 .attraction
 {
     height: 398px;
-    display: flexbox;
     align-items:center;
     background-color: #000000;
     margin-bottom: 209px;
+    text-align: center;  
 }
 
 .attraction_list
@@ -103,15 +93,20 @@
     display: flex;
     justify-content: space-between;
     width: 1215px;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding-top: 115px;
 }
 
-.attraction_icon
+.attraction_image
+{
+    width: 52px;
+    height: 52px;
+    margin-bottom: 24px;
+}
+
+.attraction_tabs
 {
     width: 337px;
-    text-align: center;
-    
 }
 
 .attraction_description
@@ -186,13 +181,13 @@
 
 .course
 {
-    margin-bottom: 173px;
+    margin: 130px auto 173px auto;
 }
 
 .course_title
 {
     font: 500 48px 'Montserrat', sans-serif;
-    margin: 130px auto 60px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -215,11 +210,12 @@
 {
     background-color: #000000;
     border-radius: 7.4px;
+    padding: 32px 48px 37px 40px;
 }
 
 .course_image
 {
-    padding: 32px 0 0 40px;
+    padding-bottom: 20px;
 }
 
 .course_descrition
@@ -227,5 +223,4 @@
     font: 400 18px 'Roboto Condensed', sans-serif;
     color: #ffffff;
     text-align: left;
-    padding: 20px 48px 37px 39px;
 }
