@@ -404,6 +404,11 @@ input:disabled + label:before
     
 }
 
+.social_social_icon
+{
+    margin-right: 15px;
+}
+
 .footer
 {
     display: flex;
