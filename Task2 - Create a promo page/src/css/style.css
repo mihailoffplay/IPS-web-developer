@@ -1,125 +1,124 @@
-* {
-    padding: 0;
+*
+{
     margin: 0;
+    padding: 0;
 }
-.wrapper {
+
+body,
+a 
+{
+    font: 400 15px/28px 'Lato', sans-serif;
+    color: #060C31;
+    text-decoration: none;
+}
+
+.content_wrapper 
+{
     width: 1440px;
     margin: 0 auto;
 }
 
-.logo {
-    display: inline;
-    margin: 60px 0 0 88px;
+.content_wrapper .header 
+{
+    padding: 0 80px 0 88px;
 }
 
-.menu {
-    display: inline;
+.content_wrapper .footer 
+{
+    padding: 0 88px;
 }
 
-.main_menu {
-    display: inline;
+.header 
+{
+    margin-bottom: 67px;
+}
+
+.logo 
+{
+    margin-top: 68px;
+    margin-bottom: 8px;
+    width: 60px;
+}
+
+.menu 
+{
+    display: block;
     float: right;
-    margin: 60px 0 0;
+    margin-top: 60px;
 }
 
-.menu_item {
-    display: inline;
+.menu_navigation
+{
+    display: inline-block;
     margin-right: 40px;
 }
 
-.menu_link {
-    text-decoration: none;
-    font: 700 13px 'Lato', serif;
-    color: #060c31;
-    line-height: 28px;
+.menu_item 
+{
+    font: 700 13px/28px 'Lato', sans-serif;
+    display: inline-block;
 }
-.menu_item_link {
-    margin-right: 0;
-    float: right;
+
+.menu_item
+{
+    margin-left: 36px;
 }
-.create_account {
-    display: inline;
-    font: 700 15px 'Lato', sans-serif;
-    text-decoration: none;
-    color: #060c31;
+
+.button {
+    display: inline-block;
+    padding: 9px 26px;
+    font-weight: 700;
     border: 1px solid #ffb0b1;
-    padding: 14px 36px;
-    border-radius: 50px;
+    border-radius: 25px;
     background-color: #ffffff;
 }
 
-.content {
-    margin: 70px auto 110px 200px;
+.main {
+    margin-bottom: 104px;
 }
 
-.content_block {
+.main_wrapper {
+    margin-left: 200px;
     display: inline-block;
-    width: 493px;
-    padding-top: 100px;
-    box-sizing: border-box;
+    vertical-align: middle;
 }
 
-.main_background {
-    position: absolute;
-    display: inline;
-    z-index: -3;
+.main_title {
+    width: 500px;
+    margin-bottom: 42px;
+    font: 400 58px/64px 'Crete Round', serif;
 }
 
-.content_title {
-    display: inline-block;
-    font: 400 58px 'Crete Round', serif;
-    line-height: 64px;
+.main_text {
+    width: 433px;
+    margin-bottom: 76px;
     letter-spacing: 0.75px;
-    color: #060C31;
-    margin: 0;
 }
 
-.content_descr {
-    display: inline-block;
-    width: 436px;
-    font: 400 15px 'Lato', serif;
-    letter-spacing: 0.75px;
-    line-height: 28px;
-    color: #060C31;
-    margin: 42px 0 76px;
-}
-
-.button_get_started {
-    align-items: center;
-    padding: 16px 36px;
-    width: 156px;
-    height: 50px;
-    background: #233FE2;
-    border-radius: 50px;
-    font: 700 15px 'Lato', serif;
-    text-decoration: none;
+.button.button_get_started 
+{
+    padding: 11px 40px;
+    margin-right: 15px;
+    border: none;
     color: #ffffff;
-    margin-right: 20px;
-
+    background-color: #233fe2;
 }
 
-.button_create_account {
-    align-items: center;
-    padding: 16px 36px;
-    width: 156px;
-    height: 50px;
-    background-color: #ffffff;
-    border: 1px #ffb0b1 solid;
-    border-radius: 50px;
-    font: 700 15px 'Lato', serif;
-    text-decoration: none;
-    color: #060C31;
+.main_picture 
+{
+    width: 790px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -60px;
 }
 
-.footer_icons {
-    display: inline;
+.footer_wrapper 
+{
+    height: 76px;
     float: right;
 }
 
-.footer_item {
-    margin: 109px 100px 52px auto;
-}
-
-.footer_item_github {
-    margin: 109px 0 52px auto;
+.footer_logo {
+    vertical-align: middle;
+    margin-left: 104px;
 }
