@@ -8,6 +8,7 @@ function setBodyLoaded() {
     body.classList.add('loaded');
 }
 
+
 function setAnimatedBlockLoaded() {
     let reached = false;
     const ANIMATED_BLOCK_OFFSET = 300;
