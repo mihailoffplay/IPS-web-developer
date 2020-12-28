@@ -15,11 +15,11 @@
     margin-bottom: 60px;
     margin-top: 48px;
     opacity: 0;
-    transition: 0.5s ease;
 }
 
 .loaded .header
 {
+    transition: 0.5s ease;
     opacity: 1;
 }
 
@@ -66,29 +66,29 @@
 .start_page
 {
     opacity: 0;
-    transition: 0.7s ease;
-    transition-delay: 0.3s;
 }
 
 .loaded .start_page
 {
     opacity: 1;
     transform: translateY(-15px);
+    transition: 0.7s ease;
+    transition-delay: 0.3s;
+    /* transition-delay: 0.5s; */
 }
 
 .start_image
 {
     opacity: 0;
-    transition: 0.7s ease;
-    transition-delay: 0.3s;
 }
 
 .loaded .start_image
 {
     opacity: 1;
     transform: scale(1.1);
+    transition: 0.7s ease;
+    transition-delay: 0.3s;
 }
-
 .title
 {
     font: 600 100px 'Montserrat';
@@ -116,14 +116,15 @@
     margin-bottom: 209px;
     text-align: center; 
     opacity: 0;
-    transition: 2s ease;
-    transition-delay: 1s;
 
 }
 
 .loaded .attraction
 {
     opacity: 1;
+    /* transition-delay: 1s; */
+    transition: 2s ease;
+    transition-delay: 1s;
 }
 
 .attraction_list
@@ -203,14 +204,14 @@
 .time_limit_image
 {
     opacity: 0;
-    transition: 1.5s;
-    transition-delay: 1s;
 }
 
 .loaded .time_limit_image
 {
     opacity: 1;
     transform: translateX(20px);
+    transition: 1.5s;
+    transition-delay: 1s;
 }
 
 .time_limit_text
@@ -218,14 +219,14 @@
     width: 620px;
     margin-left: 110px;
     opacity: 0;
-    transition: 1.5s;
-    transition-delay: 1.5s;
 }
 
 .loaded .time_limit_text
 {
     opacity: 1;
     transform: translateX(-20px);
+    transition: 1.5s;
+    transition-delay: 1.5s;
 }
 
 .time_limit_title
@@ -254,14 +255,14 @@
     width: 574px;
     justify-content: left;
     opacity: 0;
-    transition: 0.5s ease;
-    transition-delay: 2s;
 }
 
 .loaded .mind_limit_text
 {
     opacity: 1;
     transform: translateX(20px);
+    transition: 0.5s ease;
+    transition-delay: 2s;
 }
 
 .mind_limit_image
@@ -269,14 +270,14 @@
     justify-content: right;
     margin-left: 80px;
     opacity: 0;
-    transition: 0.5s ease;
-    transition-delay: 2s;
 }
 
 .loaded .mind_limit_image
 {
     opacity: 1;
     transform: translateX(-20px);
+    transition: 0.5s ease;
+    transition-delay: 2s;
     
 }
 .mind_limit_title
