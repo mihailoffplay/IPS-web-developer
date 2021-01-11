@@ -504,7 +504,7 @@ label
    text-align: center;
   }
    
-  label:before 
+label:before 
   {
    content: "";
    color: #ffffff;
@@ -523,7 +523,7 @@ label
 input:checked + label:before 
 {
    content: "✔";
-   border: 1px solid #e60a0a;
+   background-color: #ee58B6;
   }
    
 input:disabled + label:before 
