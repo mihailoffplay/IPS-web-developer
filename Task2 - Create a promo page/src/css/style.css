@@ -14,18 +14,9 @@ a
 
 .content_wrapper 
 {
-    width: 1440px;
+    width: 1540px;
     margin: 0 auto;
-}
-
-.content_wrapper .header 
-{
     padding: 0 80px 0 88px;
-}
-
-.content_wrapper .footer 
-{
-    padding: 0 88px;
 }
 
 .header 
@@ -57,12 +48,9 @@ a
 {
     font: 700 13px/28px 'Lato', sans-serif;
     display: inline-block;
-}
-
-.menu_item
-{
     margin-left: 36px;
 }
+
 
 .button {
     display: inline-block;
@@ -107,18 +95,20 @@ a
 .main_picture 
 {
     width: 790px;
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
-    margin-left: -60px;
+}
+
+.clear
+{
+    clear: both;
 }
 
 .footer_wrapper 
 {
-    height: 76px;
     float: right;
 }
 
 .footer_logo {
-    vertical-align: middle;
     margin-left: 104px;
 }
