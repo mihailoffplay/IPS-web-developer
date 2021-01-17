@@ -289,9 +289,9 @@
     display: inline-block;
     color: #ffffff;
     cursor: pointer;
-    font: 400 16px/22px 'Roboto Condensed', sans-serif;
-    margin: 17px 0 0 10px;
-    height: 22px;
+    font: 400 16px/25px 'Roboto Condensed', sans-serif;
+    margin: 17px auto;
+    height: 25px;
     vertical-align: middle;
 } 
 
@@ -318,7 +318,6 @@ label
    color: #ffffff;
    vertical-align: middle;
    cursor: pointer;
-   align-items: center;
    text-align: center;
   }
    
