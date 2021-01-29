@@ -392,14 +392,48 @@
     
 } */
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
 {   
     .menu
     {
         display: none;
     }
+
+    .menu.active
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: left;
+        text-align: center;
+        overflow: hidden;
+        position: fixed;
+        margin-top: 100px;
+        background-color: grey;
+        opacity: 0.9;
+        z-index: 10;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .menu_item
+    {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .button_menu
+    {
+        transform: translate(10%, 10%);
+        margin-top: 15px;
+        padding: 10px 5px;
+        width: 70%;
+        align-items: center;
+        font-size: 14px;
+    }
+
     .burger{
-        position: absolute;
+        position: fixed;
         right: 10px;
         top: 10px;
         width: 50px;
@@ -548,6 +582,26 @@
     {
         width: 550px;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .faq
+    {
+        width: 550px;
+    }
+
+    .faq_title
+    {
+        font-size: 28px;
+    }
+
+    .faq_title_pink
+    {
+        font-size: 28px;
+    }
+
+    .faq_panel_text
+    {
+        width: 550px;
     }
 
     .feedback_wrapper
@@ -755,15 +809,45 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .faq
+    {
+        width: 310px;
+    }
+
+    .faq_title
+    {
+        font-size: 28px;
+    }
+
+    .faq_title_pink
+    {
+        font-size: 28px;
+    }
+
+    .faq_panel_text
+    {
+        width: 310px;
+    }
+
+    .faq_accordion
+    {
+        font-size: 22px;
+    }
+
+    .faq_accordion
+    {
+        font-size: 18px;
+    }
+
     .feedback_wrapper
     {
-        width: 350px;
+        width: 310px;
     }
 
     .feedback_title
     {
         font-size: 30px;
-        width: 350px;
+        width: 320px;
     }
 
     .feedback_form
@@ -942,6 +1026,31 @@
     {
         width: 250px;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .faq
+    {
+        width: 280px;
+    }
+
+    .faq_accordion
+    {
+        font-size: 18px;
+    }
+
+    .faq_title
+    {
+        font-size: 30px;
+    }
+
+    .faq_title_pink
+    {
+        font-size: 30px;
+    }
+
+    .faq_panel_text
+    {
+        width: 280px;
     }
 
     .feedback_wrapper
