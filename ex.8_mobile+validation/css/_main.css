@@ -594,22 +594,23 @@ body
 } 
 
 
-select {
+select.modal_input {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     background: url("../images/icons/feedback_section/arrow.svg") 96% / 24px no-repeat #ffffff;
     transition: 0.5s all;
+    outline: none;
 }
 
-select::-ms-expand 
+select.modal_input:-ms-expand 
 { 
     display: none;
 }
 
-select:focus
+select.modal_input:focus
 {
-    outline: 1px solid #FF4438;
+    border: 1px solid #FF4438;
     box-sizing: border-box;
     border-radius: 4px;
 }
@@ -619,16 +620,16 @@ input[type="checkbox"]
     display: none;
 }
 
-label 
+.feedback_confirm label
 {
    height: 22px;
    color: #ffffff;
    cursor: pointer;
    text-align: center;
-  }
+}
    
-label:before 
-  {
+.feedback_confirm label:before 
+{
    content: "";
    color: #ffffff;
    display: inline-block;
@@ -641,8 +642,8 @@ label:before
    border-radius:4px;
    border-image: initial;
    vertical-align: middle;
-  }
-   
+}
+ 
 input:checked + label:before 
 {
    content: url(../images/icons/feedback_section/check_mark.svg);
@@ -661,11 +662,12 @@ input.modal_input
     width: 100%;
     box-sizing: border-box;
     border-radius: 4px;
+    outline: none;
 }
 
 input.modal_input:focus
 {
-    outline: 1px solid #FF4438;
+    border: 1px solid #FF4438;
     box-sizing: border-box;
     border-radius: 4px;
 }
@@ -849,4 +851,14 @@ input.modal_input:focus
 #sign-up
 {
     display: none;
-} 
+}
+
+#name-error, #email-error, #activity-error
+{
+    color: #FF0000;
+    font-size: 19px;
+    font: 400 19px/21px 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
