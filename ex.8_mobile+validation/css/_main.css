@@ -696,6 +696,7 @@ input.modal_input:focus
     width: 640px;
     background: #E5E5E5;
     height: 847px;
+    z-index: 20;
 }
 
 .modal_form

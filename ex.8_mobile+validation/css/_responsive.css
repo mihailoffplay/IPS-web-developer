@@ -412,6 +412,9 @@
         background-color: #fff;
         /* opacity: 0.9; */
         z-index: 5;
+        position: fixed;
+        top: 0;
+        padding-top: 55px;
     }
 
     .button_menu
@@ -441,13 +444,15 @@
     }
 
     .burger{
-        position: absolute;
+        position: fixed;
         right: 20px;
         top: 20px;
         width: 50px;
         height: 50px;
         cursor: pointer;
+        z-index: 10;
       }
+
       .burger span, .burger span:before, .burger span:after{
         width: 100%;
         position: absolute;
@@ -950,7 +955,7 @@
 
     .modal
     {
-        width: 350px;
+        width: 250px;
         height: 450px;
     }
 
@@ -966,13 +971,19 @@
 
     .modal_form
     {
-        width: 300px;
+        width: 250px;
         height: 20px;
+    }
+
+    .modal_button
+    {
+        width: 250px;
+        padding: 15px;
     }
 
     .feedback_form_text.modal_input
     {
-        width: 300px;
+        width: 200px;
         height: 40px;
     }
 
@@ -984,7 +995,7 @@
     .button.feedback_button.modal_button_form
     {
         padding: 13px 40px;
-        width: 300px;
+        width: 200px;
     }
 
     .checkbox_confirm_text.modal_confirm
@@ -1209,13 +1220,14 @@
 
     .modal
     {
-        width: 300px;
+        width: 200px;
         height: 450px;
     }
 
     .modal_title
     {
         padding-top: 30px;
+        font-size: 16px;
     }
 
     .modal_image
@@ -1225,25 +1237,36 @@
 
     .modal_form
     {
-        width: 280px;
+        width: 180px;
         height: 20px;
+    }
+
+    .modal_button
+    {
+        width: 250px;
+    }
+
+    .feedback_button.modal_button
+    {
+        padding: 13px 45px;
     }
 
     .feedback_form_text.modal_input
     {
-        width: 280px;
+        width: 180px;
         height: 40px;
     }
 
     .feedback_confirm
     {
         margin-bottom: 45px;
+        font-size: 11px;
     }
 
     .button.feedback_button.modal_button_form
     {
         padding: 13px 40px;
-        width: 280px;
+        width: 180px;
     }
 
     .checkbox_confirm_text.modal_confirm
