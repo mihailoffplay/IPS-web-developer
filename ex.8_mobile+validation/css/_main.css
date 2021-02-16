@@ -522,8 +522,8 @@ body
 {
     width: auto;
     background-color: #000000;
-    height: 694px;
-    margin-bottom: 126px;
+    height: 400px;
+    margin-bottom: 45px;
     transition: 1s ease-in;
     transition-delay: 0.8s;
     opacity: 0;
@@ -546,7 +546,7 @@ body
     width: 651px;
     font: 500 48px 'Montserrat';
     margin: 0 auto 60px auto;
-    padding-top: 125px;
+    padding-top: 75px;
 }
 
 .feedback_title_pink

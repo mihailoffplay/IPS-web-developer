@@ -413,8 +413,8 @@
         z-index: 5;
         position: fixed;
         top: 0;
-        left: 0;
         padding-top: 55px;
+        left: 0;
     }
 
     .button_menu
@@ -714,6 +714,13 @@
         font-size: 11px;
     }
 
+    #upbutton
+    {
+        right: 5px;
+        bottom: 5px;
+        width: 70px;
+    }
+
     
 
 
@@ -725,9 +732,7 @@
     {
         width: 450px;
         margin-bottom: 20px;
-    }
-
-    
+    }   
 
     .start
     {
@@ -955,8 +960,14 @@
 
     .modal
     {
-        width: 250px;
-        height: 450px;
+        width: 320px;
+        height: 480px;
+    }
+
+    .modal_close
+    {
+        top: 5px;
+        right: 15px;
     }
 
     .modal_title
@@ -971,19 +982,19 @@
 
     .modal_form
     {
-        width: 250px;
+        width: 300px;
         height: 20px;
     }
 
     .modal_button
     {
-        width: 250px;
+        width: 320px;
         padding: 15px;
     }
 
     .feedback_form_text.modal_input
     {
-        width: 200px;
+        width: 300px;
         height: 40px;
     }
 
@@ -995,7 +1006,7 @@
     .button.feedback_button.modal_button_form
     {
         padding: 13px 40px;
-        width: 200px;
+        width: 300px;
     }
 
     .checkbox_confirm_text.modal_confirm
@@ -1040,12 +1051,19 @@
         padding-left: 42.5px;
     }
 
+    .button_start
+    {
+        padding-right: 32.5px;
+    }
+
     .title_description
     {
         font-size: 15px;
-        width: 270px;
+        width: 250px;
         margin-bottom: 40px;
     }
+
+    
 
     .attraction
     {
@@ -1220,14 +1238,19 @@
 
     .modal
     {
-        width: 200px;
-        height: 450px;
+        width: 220px;
+        height: 480px;
+    }
+
+    .modal_close
+    {
+        top: 5px;
+        right: 15px;
     }
 
     .modal_title
     {
         padding-top: 30px;
-        font-size: 16px;
     }
 
     .modal_image
@@ -1237,40 +1260,35 @@
 
     .modal_form
     {
-        width: 180px;
+        width: 200px;
         height: 20px;
     }
 
     .modal_button
     {
-        width: 250px;
-    }
-
-    .feedback_button.modal_button
-    {
-        padding: 13px 45px;
+        width: 220px;
+        padding: 15px;
     }
 
     .feedback_form_text.modal_input
     {
-        width: 180px;
+        width: 200px;
         height: 40px;
     }
 
     .feedback_confirm
     {
         margin-bottom: 45px;
-        font-size: 11px;
     }
 
     .button.feedback_button.modal_button_form
     {
-        padding: 13px 40px;
-        width: 180px;
+        padding: 10px 40px;
+        width: 200px;
     }
 
     .checkbox_confirm_text.modal_confirm
     {
-        font-size: 11px;
+        font-size: 10px;
     }
 }
