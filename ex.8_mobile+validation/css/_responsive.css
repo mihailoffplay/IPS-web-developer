@@ -394,11 +394,17 @@
 
 @media screen and (max-width: 768px)
 {   
+    
+    .header
+    {
+        justify-content: space-between;
+        padding-left: 40px;
+    }
+    
     .menu
     {
         display: none;
     }
-
     
     .menu.active
     {
